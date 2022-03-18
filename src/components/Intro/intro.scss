@@ -1,7 +1,64 @@
 .housing__section {
   display: flex;
-  .inner__text {
-    display: flex;
-    padding: 0 20px;
+  justify-content: space-between;
+  .text__section {
+    .inner__text {
+      display: flex;
+      //   padding: 0 20px;
+      .line {
+        width: 35px;
+        height: 9px;
+        position: absolute;
+        top: 119px;
+        left: 250px;
+      }
+      p {
+        font-family: "Inter", sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 24px;
+        text-align: center;
+        text-transform: capitalize;
+      }
+    }
+    .other__text {
+      .hopeless {
+        font-family: "Inter", sans-serif;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 46px;
+        line-height: 56px;
+        text-transform: capitalize;
+
+        color: #343434;
+      }
+      .text__under {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 237.52%;
+        /* or 38px */
+
+        text-transform: capitalize;
+
+        color: #343434;
+      }
+      .contribute {
+        background: #d7d7d7;
+        border-radius: 10px;
+        border: none;
+        width: 150px;
+        height: 50px;
+        box-shadow: -3px 3px 0px 1px #00eaff;
+        
+      }
+    }
+  }
+  .image__section {
+    img {
+      width: 455px;
+      height: 551.21px;
+    }
   }
 }

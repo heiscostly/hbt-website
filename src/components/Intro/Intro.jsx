@@ -6,36 +6,38 @@ import "./intro.scss";
 const Intro = () => {
   return (
     <>
-      <div className="container">
+      <div className="container mt-5">
         <div className="row">
-          <div className="col"></div>
+          {/* <div className="col"></div> */}
           <section className="col-md-10 housing__section">
             <div className="text__section">
               <div className="inner__text">
-                <h4 style={{ paddingRight: "15px" }}>Heart beat token</h4>
-                <img
-                  style={{ width: "35px", height: "9px" }}
-                  src={Lines}
-                  alt=""
-                />
+                <p style={{ paddingRight: "15px" }}>Heart Beat Token</p>
+                <img className="line" src={Lines} alt="" />
               </div>
               <div className="other__text">
-                <h2>The Hopeless romantic token</h2>
-                <p>
-                  The Heartbeat Token will be donating proceeds from buys, sells
+                <h2 className="hopeless">The Hopeless romantic token</h2>
+                <p className="text__under">
+                  The Heartbeat Token will be donating proceeds from buys, sells{" "}
+                  <br />
                   and transfers to organizations that align with our values and
-                  morale. We are creating an environment where people will feel
-                  comfortable discussing their stories of times of bad mental
-                  health.
+                  morale. <br /> We are creating an environment where people
+                  will feel comfortable <br /> discussing their stories of times
+                  of bad mental health.
                 </p>
-                <button>Contribute</button>
+                <button className="contribute">Contribute</button>
               </div>
             </div>
             <div className="image__section">
-              <img src={Head} alt="head" />
+              <img
+                style={{ width: "100%", height: "50%" }}
+                className="img"
+                src={Head}
+                alt="head"
+              />
             </div>
           </section>
-          <div className="col"></div>
+          {/* <div className="col"></div> */}
         </div>
       </div>
     </>
