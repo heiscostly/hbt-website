@@ -1,0 +1,43 @@
+.housing__div{
+    background: linear-gradient(258.12deg, rgba(0, 0, 0, 0.09) 0.36%, rgba(0, 0, 0, 0.07) 100%);
+    backdrop-filter: blur(10px);
+    /* Note: backdrop-filter has minimal browser support */
+
+    border-radius: 24px;
+    img{
+        position: absolute;
+        bottom: 330px;
+        left: 26px;
+    }
+    .div__sect{
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+
+        h5{
+            padding-top: 100px;
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 30px;
+            line-height: 36px;
+            text-transform: capitalize;
+
+            color: #343434;
+        }
+        p{
+            padding-top: 40px;
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 26px;
+            /* or 162% */
+
+            text-transform: capitalize;
+
+            color: #343434;
+
+        }
+    }
+}
