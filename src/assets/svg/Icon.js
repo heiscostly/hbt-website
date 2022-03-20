@@ -20,6 +20,7 @@ import telegram from "../../assets/telegram.svg";
 import twitter from "../../assets/twitter.png";
 import youtube from "../../assets/yt.png";
 
+// eslint-disable-next-line import/no-anonymous-default-export
 export default {
   WhyHbt,
   Burning,
