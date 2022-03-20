@@ -1,16 +1,20 @@
+$small: 320px;
+
 .housing__section {
   display: flex;
   justify-content: space-between;
   .text__section {
+    width: 80%;
     .inner__text {
       display: flex;
+      position: relative;
       //   padding: 0 20px;
       .line {
         width: 35px;
         height: 9px;
         position: absolute;
-        top: 119px;
-        left: 250px;
+        top: 9px;
+        left: 170px;
       }
       p {
         font-family: "Inter", sans-serif;
@@ -51,14 +55,34 @@
         width: 150px;
         height: 50px;
         box-shadow: -3px 3px 0px 1px #00eaff;
-        
       }
     }
   }
   .image__section {
+    width: 20%;
     img {
       width: 455px;
       height: 551.21px;
     }
   }
 }
+@media screen and (max-width: $small) {
+  .housing__section {
+    .text__section{
+      width: auto;
+      .other__text{
+        
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        
+      }
+    }
+    flex-direction: column-reverse;
+    
+    .image__section{
+      width: auto;
+    }
+  }
+}
+

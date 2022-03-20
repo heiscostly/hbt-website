@@ -1,0 +1,34 @@
+.footer__div {
+  background: #15202f;
+  backdrop-filter: blur(10px);
+  /* Note: backdrop-filter has minimal browser support */
+
+  border-radius: 8px;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+
+  padding: 40px;
+  .socials {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    img {
+      width: 45px;
+      padding: 10px;
+    }
+  }
+  p {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    text-align: center;
+    /* identical to box height, or 171% */
+
+    font-feature-settings: "liga" off;
+
+    color: rgba(255, 255, 255, 0.5);
+  }
+}

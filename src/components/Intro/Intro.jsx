@@ -6,9 +6,9 @@ import "./intro.scss";
 const Intro = () => {
   return (
     <>
-      <div className="container mt-5">
+      <div className="container mt-5 mb-5">
         <div className="row">
-          {/* <div className="col"></div> */}
+          <div className="col"></div>
           <section className="col-md-10 housing__section">
             <div className="text__section">
               <div className="inner__text">
@@ -19,11 +19,11 @@ const Intro = () => {
                 <h2 className="hopeless">The Hopeless romantic token</h2>
                 <p className="text__under">
                   The Heartbeat Token will be donating proceeds from buys, sells{" "}
-                  <br />
+                  {/* <br /> */}
                   and transfers to organizations that align with our values and
-                  morale. <br /> We are creating an environment where people
-                  will feel comfortable <br /> discussing their stories of times
-                  of bad mental health.
+                  morale. We are creating an environment where people will feel
+                  comfortable discussing their stories of times of bad mental
+                  health.
                 </p>
                 <button className="contribute">Contribute</button>
               </div>
@@ -37,7 +37,7 @@ const Intro = () => {
               />
             </div>
           </section>
-          {/* <div className="col"></div> */}
+          <div className="col"></div>
         </div>
       </div>
     </>

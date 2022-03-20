@@ -13,7 +13,7 @@ const Why = () => {
             {/* <Burning /> */}
             {/* <span>{Burning}</span> */}
             <div className="first__home-section pt-5">
-              <div>
+              <div className="hidding__huh">
                 <div className="d-flex">
                   <img src={Icon.Burning} alt="" />
                   <h5 style={{ paddingLeft: "11px" }}>

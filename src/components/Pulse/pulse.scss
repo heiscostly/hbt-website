@@ -1,3 +1,4 @@
+$small: 320px;
 .housing__divpulse {
   position: relative;
   border: 1px solid transparent;
@@ -66,37 +67,59 @@
   }
 
   .network {
-    // border: 2px solid;
-    position: relative;
+    h4 {
+      font-family: "Inter";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 16px;
+      line-height: 19px;
+      text-transform: capitalize;
 
-    border: 1px solid transparent;
-    border-radius: 16px;
-    background: #e9e9e9;
-
-    background-clip: padding-box;
-
-    ::before {
-      position: absolute;
-      top: -1px;
-      bottom: -1px;
-      left: -1px;
-      right: -1px;
-      background-image: linear-gradient(58deg, #00eaff, #e617db) !important;
-      content: "";
-      z-index: -2;
-      border-radius: 16px;
+      color: #343434;
     }
   }
   .hello__img {
     position: relative;
-       img{
-          width: 230px;
-          position: absolute;
-          left: -110px;
-          top: 390px;
-          z-index: 1;
-       }
+    img {
+      width: 230px;
+      position: absolute;
+      left: -110px;
+      top: 390px;
+      z-index: 1;
+    }
   }
 }
 
+@media screen and (max-width: $small) {
+  .housing__divpulse {
+    padding: 10px;
+    .second__div {
+      width: 100%;
+      img {
+        width: 100%;
+      }
+    }
+    .network {
+      width: 100%;
+      // border: 1px solid #00eaff;
+      border-radius: 8px;
+      overflow-x: hidden;
+    }
+  }
 
+  .newheart {
+    img {
+      overflow-x: hidden;
+      top: 278px;
+      left: 154px;
+    }
+  }
+  .lastheart{
+    overflow-x: unset;
+    img{
+      width: 250px !important;
+      left: -117px !important;
+      z-index: -1;
+    }
+  }
+}

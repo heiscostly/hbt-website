@@ -8,7 +8,7 @@ const Pulse = () => {
       <div className="container">
         <div className="row">
           <div
-            className="col"
+            className="col newheart"
             style={{
               position: "relative",
               display: "flex",
@@ -19,7 +19,7 @@ const Pulse = () => {
             <img
               style={{
                 position: "absolute",
-                width: "100%",
+                width: "200px",
                 right: "-70px",
                 zIndex: "1",
               }}
@@ -45,13 +45,12 @@ const Pulse = () => {
               </p>
             </div>
             <div className="network">
+              <h4>Network Name: PULSE Testnet</h4>
+              <h4>New RPC URL: https://rpc.v2.testnet.pulsechain.com</h4>
+              <h4>Chain ID: 940</h4>
+              <h4>Currency Symbol: tPLS</h4>
               <h4>
-                Network Name: <br /> PULSE Testnet <br /> <br /> New RPC URL:{" "}
-                <br />
-                https://rpc.v2.testnet.pulsechain.com <br /> <br /> Chain ID:{" "}
-                <br /> 940 <br /> <br /> Currency Symbol: <br /> tPLS <br />{" "}
-                <br /> Block Explorer URL: <br />
-                https://scan.v2.testnet.pulsechain.com
+                Block Explorer URL: https://scan.v2.testnet.pulsechain.com
               </h4>
             </div>
             <div className="mt-4">
@@ -66,7 +65,7 @@ const Pulse = () => {
             </div>
           </div>
           <div
-            className="col"
+            className="col lastheart"
             style={{
               position: "relative",
               display: "flex",

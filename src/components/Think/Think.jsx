@@ -9,7 +9,7 @@ const Think = () => {
         <div className="row">
           <div className="col"></div>
           <div className="col-md-8 housing__div">
-            <div>
+            <div className="holding__img">
               <img src={Icon.banner} alt="" />
             </div>
             <div className="div__sect d-flex justify-content-evenly flex-column d-inline-block">
