@@ -8,6 +8,11 @@ import reward from "../../assets/reward.svg";
 import team from "../../assets/team.svg";
 import nft from "../../assets/nft.svg";
 import banner from "../../assets/banner.svg";
+import settings from "../../assets/settings.svg";
+import meta from "../../assets/meta.svg";
+import connect from "../../assets/connect.png";
+import back1 from "../../assets/back1.svg";
+import heart from "../../assets/heart.svg";
 
 export default {
   WhyHbt,
@@ -20,4 +25,9 @@ export default {
   reward,
   guard,
   banner,
+  settings,
+  meta,
+  connect,
+  heart,
+  back1,
 };

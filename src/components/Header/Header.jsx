@@ -1,7 +1,7 @@
 import React from "react";
 import Logo from "../../assets/logo.png";
 // import SettingsIcon from "@mui/icons-material/Settings";
-import { Settings } from "@mui/icons-material";
+import { Icon } from "../../assets/svg";
 import "./Header.scss";
 
 export const Header = () => {
@@ -26,7 +26,7 @@ export const Header = () => {
                 <a href="">Docs</a>
               </li>
               <button>
-                <Settings fontSize="small" />
+                <img src={Icon.settings} alt="" />
               </button>
             </ul>
           </nav>
