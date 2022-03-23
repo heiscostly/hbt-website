@@ -6,11 +6,12 @@ import MiniSection from "./components/MiniSection/MiniSection";
 import Pulse from "./components/Pulse/Pulse";
 import HeartBeatInfo from "./components/HeartBeatInfo/HeartBeatInfo";
 import Footer from "./Footer/Footer";
+import SemiFooter from "./components/SemiFooter/SemiFooter";
 import "./App.css";
 function App() {
   return (
     <>
-      <div className="container">
+      <div className="container" style={{ overflow: "auto" }}>
         <div className="row">
           <div className="col"></div>
           <div className="col-md-10">
@@ -21,6 +22,7 @@ function App() {
             <MiniSection />
             <Pulse />
             <HeartBeatInfo />
+            <SemiFooter />
             <Footer />
           </div>
           <div className="col"></div>

@@ -61,7 +61,25 @@ $iphonexr:414px;
     visibility: hidden !important;
   }
   .mobile-view{
-    margin-top: 18px;
+    margin-top: 30px;
+  }
+}
+@media screen and (max-width: 390px) {
+  .desktop-view {
+    display: none !important;
+    visibility: hidden !important;
+  }
+  .mobile-view{
+    margin-top: 30px;
+  }
+}
+@media screen and (max-width: 414px) {
+  .desktop-view {
+    display: none !important;
+    visibility: hidden !important;
+  }
+  .mobile-view{
+    margin-top: 30px;
   }
 }
 

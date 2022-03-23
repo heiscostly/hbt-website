@@ -27,7 +27,7 @@ $small: 320px;
 
 @media screen and (max-width: $small) {
     .min__div{
-        padding: 10px;
+        padding: 10px !important;
     }
     
 }
