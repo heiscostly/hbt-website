@@ -11,10 +11,10 @@ import "./App.css";
 function App() {
   return (
     <>
-      <div className="container" style={{ overflow: "auto" }}>
+      <div className="container-lg" style={{ overflow: "auto" }}>
         <div className="row">
-          <div className="col"></div>
-          <div className="col-md-10">
+          {/* <div className="col"></div> */}
+          <div className="col-lg-12">
             <Header />
             <Intro />
             <Why />
@@ -25,7 +25,7 @@ function App() {
             <SemiFooter />
             <Footer />
           </div>
-          <div className="col"></div>
+          {/* <div className="col"></div> */}
         </div>
       </div>
     </>

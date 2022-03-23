@@ -10,9 +10,13 @@ const Footer = () => {
           <div className="col"></div>
           <div className="col-md-8 footer__div">
             <div className="socials">
-              <img src={Icon.telegram} alt="" />
-              <img src={Icon.twitter} alt="" />
-              <img src={Icon.youtube} alt="" />
+              <a href="https://t.me/theheartbeattoken" target="_blank">
+                <img src={Icon.telegram} alt="" />
+              </a>
+              <a href="https://twitter.com/heartbeattoken" target="_blank">
+                <img src={Icon.twitter} alt="" />
+              </a>
+              {/* <img src={Icon.youtube} alt="" /> */}
               <img src={Icon.discord} alt="" />
             </div>
             <p>© 2021 HBT. All rights reserved</p>

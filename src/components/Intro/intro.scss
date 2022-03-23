@@ -81,6 +81,9 @@ $iphonexr: 414px;
         justify-content: center;
         align-items: center;
         flex-direction: column;
+        .contribute{
+          display: none;
+        }
       }
     }
     flex-direction: column-reverse;
@@ -103,6 +106,9 @@ $iphonexr: 414px;
         justify-content: center;
         align-items: center;
         flex-direction: column;
+        .contribute{
+          display: none;
+        }
       }
     }
     flex-direction: column-reverse;

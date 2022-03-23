@@ -47,14 +47,17 @@ const Pulse = () => {
               </p>
             </div>
             <div className="network">
-              <h4 style={{ color: "white" }}>Network Name: PULSE Testnet</h4>
               <h4 style={{ color: "white" }}>
-                New RPC URL: https://rpc.v2.testnet.pulsechain.com
+                Network Name: PulseChain Testnet 2b
               </h4>
-              <h4 style={{ color: "white" }}>Chain ID: 940</h4>
+              <h4 style={{ color: "white" }}>
+                New RPC URL: https://rpc.v2b.testnet.pulsechain.com
+              </h4>
+              <h4 style={{ color: "white" }}>Chain ID: 941</h4>
               <h4 style={{ color: "white" }}>Currency Symbol: tPLS</h4>
               <h4 style={{ color: "white" }}>
-                Block Explorer URL: https://scan.v2.testnet.pulsechain.com
+                Block Explorer URL: https://scan.v2b.testnet.pulsechain.com{" "}
+                <br />
               </h4>
             </div>
             <div className="mt-4">

@@ -10,8 +10,8 @@ export const Header = () => {
       {/* <header> */}
       <div className="container">
         <div className="row">
-          <div className="col"></div>
-          <div className="col-md-10 head__section desktop-view">
+          {/* <div className="col"></div> */}
+          <div className="col-lg-12 head__section desktop-view">
             <img src={Logo} alt="logo" />
 
             <nav>
@@ -34,36 +34,88 @@ export const Header = () => {
               </ul>
             </nav>
           </div>
-          <div className="mobile-view d-flex justify-content-between">
-            <img src={Logo} alt="logo" />
-            <div
-              style={{
-                width: "38%",
-                display: "flex",
-                justifyContent: "space-between",
-              }}
-            >
+          <div className="mobile-view">
+            <nav className="navbar navbar-expand-lg navbar-light ">
+              <a className="navbar-brand" href="/">
+                <img src={Logo} alt="logo" />
+              </a>
               <button
-                style={{
-                  background: "#2B2638",
-                  border: "1px solid rgba(55, 91, 255, 0.4",
-                  borderRadius: "5px",
-                }}
+                className="navbar-toggler"
+                type="button"
+                data-toggle="collapse"
+                data-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
               >
-                <img src={Icon.mobsettings} alt="" />
+                <span className="">
+                  <img src={Icon.mobmenu} alt="" />
+                </span>
               </button>
-              <button
-                style={{
-                  background: "#2B2638",
-                  border: "1px solid rgba(55, 91, 255, 0.4",
-                  borderRadius: "5px",
-                }}
-              >
-                <img src={Icon.mobmenu} alt="" />
-              </button>
-            </div>
+              <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div className="navbar-nav">
+                  <a
+                    className="nav-item nav-link active"
+                    href="/"
+                    style={{
+                      color: "white",
+                      border: "2px solid #E617DB",
+                      marginBottom: "18px",
+                      marginTop: "18px",
+                      borderRadius: "10px",
+                      textTransform: "uppercase",
+                      textAlign: "center",
+                    }}
+                  >
+                    Home
+                  </a>
+                  <a
+                    className="nav-item nav-link"
+                    href="/"
+                    style={{
+                      color: "white",
+                      border: "2px solid #00EAFF",
+                      marginBottom: "18px",
+                      borderRadius: "10px",
+                      textTransform: "uppercase",
+                      textAlign: "center",
+                    }}
+                  >
+                    Tokenmetrics
+                  </a>
+                  <a
+                    className="nav-item nav-link"
+                    href="/"
+                    style={{
+                      color: "white",
+                      border: "2px solid #E617DB",
+                      marginBottom: "18px",
+                      borderRadius: "10px",
+                      textTransform: "uppercase",
+                      textAlign: "center",
+                    }}
+                  >
+                    Taxes
+                  </a>
+                  <a
+                    className="nav-item nav-link disabled"
+                    href="/"
+                    style={{
+                      color: "white",
+                      border: "2px solid #00EAFF",
+                      marginBottom: "18px",
+                      borderRadius: "10px",
+                      textTransform: "uppercase",
+                      textAlign: "center",
+                    }}
+                  >
+                    Docs
+                  </a>
+                </div>
+              </div>
+            </nav>
           </div>
-          <div className="col"></div>
+          {/* <div className="col"></div> */}
         </div>
       </div>
       {/* </header> */}

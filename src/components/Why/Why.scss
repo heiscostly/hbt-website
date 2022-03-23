@@ -1,8 +1,16 @@
 $small: 320px;
 $iphonexr:414px;
+// .first__col{
+//   background-image: url("../../assets/whyvec.svg");
+//   background-size: cover;
+//   background-repeat: no-repeat;
+// }
 .home__div {
   background: linear-gradient(258.12deg, rgba(112, 112, 112, 0.09) 0.36%, rgba(255, 255, 255, 0.07) 100%);
   backdrop-filter: blur(10px);
+  background-image: url("../../assets/whyvec.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
   /* Note: backdrop-filter has minimal browser support */
 
   border-radius: 24px;
@@ -22,7 +30,7 @@ $iphonexr:414px;
       font-weight: 400;
       font-size: 13px;
       line-height: 16px;
-      text-transform: lowercase;
+      text-transform: capitalize;
 
       color: #343434;
     }

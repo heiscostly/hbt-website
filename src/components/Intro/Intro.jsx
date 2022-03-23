@@ -10,7 +10,7 @@ const Intro = () => {
       <div className="container mt-5 mb-5">
         <div className="row">
           <div className="col"></div>
-          <section className="col-md-10 housing__section">
+          <section className="col-md-12 housing__section">
             <div className="text__section">
               <div className="inner__text">
                 <p style={{ paddingRight: "15px", color: "white" }}>

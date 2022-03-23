@@ -69,23 +69,24 @@ const SemiFooter = () => {
             <div className="mob__items">
               <h4 style={{ borderBottomStyle: "dotted" }}>May 2022 </h4>
               <ul>
-                <li>Private Sale</li>
-                <li>Audits and KYC</li>
-                <li>Pinksale Listing with the KYC and audits badge.</li>
-                <li> Initial Marketing</li>
-                <li> IDO </li>
-                <li>Pancakeswap Listing</li>
+                <li>HeartBeat NFT Launch</li>
+                <li>First Mental Health Charity.</li>
+                <li>Marketing and collaborations.</li>
+                <li>HBT Branded Merchandise.</li>
+                <li> CEX Listing</li>
+                <li>CG and Coinmarketcap Listing</li>
               </ul>
             </div>
             <div className="mob__items">
               <h4 style={{ borderBottomStyle: "dotted" }}>2022 and Beyond</h4>
               <ul>
-                <li>Private Sale</li>
-                <li>Audits and KYC</li>
-                <li>Pinksale Listing with the KYC and audits badge.</li>
-                <li> Initial Marketing</li>
-                <li> IDO </li>
-                <li>Pancakeswap Listing</li>
+                <li>Expand CEX Listing.</li>
+                <li>More Marketing and Collaborations</li>
+                <li>Expand Mental Health Charity Worldwide.</li>
+                <li> Integrate DEFI and Metaverse</li>
+                <li> HBT DAO</li>
+                <li>Develop Governance</li>
+                <li>Expand Heartbeat Ecosystem</li>
               </ul>
             </div>
           </div>
