@@ -7,11 +7,30 @@ const HeartBeatInfo = () => {
     <>
       <div className="container mt-5">
         <div className="row">
-          <div className="col"></div>
+          <div
+            className="col"
+            style={{
+              position: "relative",
+              display: "flex",
+              justifyContent: "end",
+              alignItems: "flex-end",
+            }}
+          >
+            <img
+              style={{
+                position: "absolute",
+                width: "400px",
+                right: "-70px",
+                zIndex: "-1",
+              }}
+              src={Icon.pulseVec}
+              alt=""
+            />
+          </div>
           <div className="col-md-8 heart__div">
             <div>
-              <h4>HEARTBEAT TOKEN INFORMATION.</h4>
-              <p>
+              <h4 style={{ color: "white" }}>HEARTBEAT TOKEN INFORMATION.</h4>
+              <p style={{ color: "white" }}>
                 Token Name: HEARTBEAT
                 <br /> Token Token Ticker: HBT
                 <br /> Precision: 18 <br />

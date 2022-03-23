@@ -9,7 +9,7 @@ const MiniSection = () => {
           <div className="col"></div>
           <div className="col-md-8 min__div">
             <div>
-              <p className="mini__text">
+              <p style={{ color: "white" }} className="mini__text">
                 <b style={{ fontWeight: "700" }}>$HBT</b> is HEARTBEAT (HBT) is
                 a meme auto-staking token, by buying and holding{" "}
                 <b style={{ fontWeight: "700" }}>$HBT</b>, you contribute to a

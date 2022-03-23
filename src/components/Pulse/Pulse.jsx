@@ -21,7 +21,7 @@ const Pulse = () => {
                 position: "absolute",
                 width: "200px",
                 right: "-70px",
-                zIndex: "1",
+                zIndex: "-1",
               }}
               src={Icon.heart}
               alt=""
@@ -29,8 +29,10 @@ const Pulse = () => {
           </div>
           <div className="col-md-8 housing__divpulse">
             <div className="first__divtext">
-              <h5 className="new">New: The Pulse Testnet is live.</h5>
-              <p>
+              <h5 style={{ color: "white" }} className="new">
+                New: The Pulse Testnet is live.
+              </h5>
+              <p style={{ color: "white" }}>
                 Currently the second version of the PulseChain Testnet is live
                 with validator rotation, registration, and staking. You can
                 connect MetaMask now to view a copy of all of your ERC20 Tokens.{" "}
@@ -38,23 +40,25 @@ const Pulse = () => {
             </div>
             <div className="second__div">
               <img src={Icon.connect} alt="" />
-              <p className="mt-3">
+              <p style={{ color: "white" }} className="mt-3">
                 To connect to the Testnet open MetaMask and click the Networks
                 dropdown. Select "Custom Network". Now enter the following
                 information:
               </p>
             </div>
             <div className="network">
-              <h4>Network Name: PULSE Testnet</h4>
-              <h4>New RPC URL: https://rpc.v2.testnet.pulsechain.com</h4>
-              <h4>Chain ID: 940</h4>
-              <h4>Currency Symbol: tPLS</h4>
-              <h4>
+              <h4 style={{ color: "white" }}>Network Name: PULSE Testnet</h4>
+              <h4 style={{ color: "white" }}>
+                New RPC URL: https://rpc.v2.testnet.pulsechain.com
+              </h4>
+              <h4 style={{ color: "white" }}>Chain ID: 940</h4>
+              <h4 style={{ color: "white" }}>Currency Symbol: tPLS</h4>
+              <h4 style={{ color: "white" }}>
                 Block Explorer URL: https://scan.v2.testnet.pulsechain.com
               </h4>
             </div>
             <div className="mt-4">
-              <p>
+              <p style={{ color: "white" }}>
                 You must manually add your ERC20s for them to show. The snapshot
                 for the balances for this testnet were a couple months ago.{" "}
                 <br /> <br /> Get free tPLS (worthless Testnet Pulse) at the

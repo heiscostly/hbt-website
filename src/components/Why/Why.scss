@@ -1,28 +1,17 @@
 $small: 320px;
+$iphonexr:414px;
 .home__div {
-  position: relative;
-  border: 1px solid transparent;
-  border-radius: 16px;
-  background: #e9e9e9;
+  background: linear-gradient(258.12deg, rgba(112, 112, 112, 0.09) 0.36%, rgba(255, 255, 255, 0.07) 100%);
+  backdrop-filter: blur(10px);
+  /* Note: backdrop-filter has minimal browser support */
 
-  background-clip: padding-box;
-  padding: 50px;
-
-  ::before {
-    position: absolute;
-    top: -1px;
-    bottom: -1px;
-    left: -1px;
-    right: -1px;
-    background-image: linear-gradient(58deg, #00eaff, #e617db);
-    content: "";
-    z-index: -2;
-    border-radius: 16px;
-  }
+  border-radius: 24px;
+  border: 2px solid #00EAFF;
   .first__home-section {
     display: flex;
     justify-content: space-between;
     width: 100%;
+    color: white;
 
     div {
       width: 30%;
@@ -58,6 +47,25 @@ $small: 320px;
       div {
         width: 100% !important;
       }
+    }
+  }
+}
+@media screen and (max-width: $iphonexr) {
+  .home__div {
+    padding: 10px !important;
+    .first__home-section {
+      flex-direction: column;
+      width: 100% !important;
+      div {
+        width: 100% !important;
+      }
+    }
+  }
+  .vec__div{
+    img{
+      width: 120px !important;
+      bottom: 225px;
+      right: 0 !important;
     }
   }
 }

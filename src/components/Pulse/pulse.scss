@@ -1,25 +1,16 @@
 $small: 320px;
+$iphonexr: 414px;
 .housing__divpulse {
-  position: relative;
-  border: 1px solid transparent;
-  border-radius: 16px;
-  background: #e9e9e9;
+  background: linear-gradient(258.12deg, rgba(112, 112, 112, 0.09) 0.36%, rgba(255, 255, 255, 0.07) 100%);
+  backdrop-filter: blur(2px);
+  /* Note: backdrop-filter has minimal browser support */
 
-  background-clip: padding-box;
+  border-radius: 24px;
+  border: 2px solid #E617DB;
   padding: 50px;
   margin-top: 8rem;
 
-  ::before {
-    position: absolute;
-    top: -1px;
-    bottom: -1px;
-    left: -1px;
-    right: -1px;
-    background-image: linear-gradient(58deg, #00eaff, #e617db);
-    content: "";
-    z-index: -2;
-    border-radius: 16px;
-  }
+  
 
   p {
     font-family: "Inter";
@@ -109,14 +100,43 @@ $small: 320px;
 
   .newheart {
     img {
-      overflow-x: hidden;
-      top: 278px;
-      left: 154px;
+      display: none;
     }
   }
-  .lastheart{
+  .lastheart {
     overflow-x: unset;
-    img{
+    img {
+      width: 250px !important;
+      left: -117px !important;
+      z-index: -1;
+    }
+  }
+}
+@media screen and (max-width: $iphonexr) {
+  .housing__divpulse {
+    padding: 10px;
+    .second__div {
+      width: 100%;
+      img {
+        width: 100%;
+      }
+    }
+    .network {
+      width: 100%;
+      // border: 1px solid #00eaff;
+      border-radius: 8px;
+      overflow-x: hidden;
+    }
+  }
+
+  .newheart {
+    img {
+      display: none;
+    }
+  }
+  .lastheart {
+    overflow-x: unset;
+    img {
       width: 250px !important;
       left: -117px !important;
       z-index: -1;

@@ -1,13 +1,17 @@
 $small: 320px;
+$iphonexr: 414px;
 
 .housing__section {
   display: flex;
   justify-content: space-between;
+  width: 100%;
+  
   .text__section {
-    width: 80%;
+    width: 40%;
     .inner__text {
       display: flex;
       position: relative;
+
       //   padding: 0 20px;
       .line {
         width: 35px;
@@ -59,30 +63,56 @@ $small: 320px;
     }
   }
   .image__section {
-    width: 20%;
-    img {
-      width: 455px;
-      height: 551.21px;
-    }
+    // width: 60%;
+    // background-image: url("../../assets/head.png");
+    // background-size: contain;
+    // background-repeat: no-repeat;
+    // img {
+    //   width: 455px;
+    //   height: 551.21px;
+    // }
   }
 }
 @media screen and (max-width: $small) {
   .housing__section {
-    .text__section{
+    .text__section {
       width: auto;
-      .other__text{
-        
+      .other__text {
         justify-content: center;
         align-items: center;
         flex-direction: column;
-        
       }
     }
     flex-direction: column-reverse;
-    
-    .image__section{
-      width: auto;
+
+    .image__section {
+      width: 100% !important;
+
+      img {
+        height: 300px !important;
+        width: 300px !important;
+      }
     }
   }
 }
+@media screen and (max-width: $iphonexr) {
+  .housing__section {
+    .text__section {
+      width: auto;
+      .other__text {
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+      }
+    }
+    flex-direction: column-reverse;
 
+    .image__section {
+      width: 100% !important;
+      img {
+        height: 300px !important;
+        width: 300px !important;
+      }
+    }
+  }
+}

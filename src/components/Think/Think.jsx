@@ -13,8 +13,10 @@ const Think = () => {
               <img src={Icon.banner} alt="" />
             </div>
             <div className="div__sect d-flex justify-content-evenly flex-column d-inline-block">
-              <h5>MENTAL HEATH CHARITY THROUGH THE HEARTBEAT TOKEN.</h5>
-              <p>
+              <h5 style={{ color: "white" }}>
+                MENTAL HEATH CHARITY THROUGH THE HEARTBEAT TOKEN.
+              </h5>
+              <p style={{ color: "white" }}>
                 $HBT’s values and morale directly correlate with this notion of
                 all natural mental health for a prosperous lifestyle. With each
                 collaboration, we will be able to bring online awareness to a
