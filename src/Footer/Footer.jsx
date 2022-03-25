@@ -17,7 +17,7 @@ const Footer = () => {
                 <img src={Icon.twitter} alt="" />
               </a>
               {/* <img src={Icon.youtube} alt="" /> */}
-              <a href="https://discord.gg/hfgPwCpfdb">
+              <a href="https://discord.gg/yq33CZFC">
                 <img src={Icon.discord} alt="" />
               </a>
             </div>
