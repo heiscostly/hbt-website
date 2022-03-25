@@ -108,7 +108,7 @@ export const Header = () => {
                     Taxes
                   </AnchorLink>
                   <a
-                    className="nav-item nav-link disabled"
+                    className="nav-item nav-link "
                     href="https://bit.ly/HeartbeatLitepaper"
                     target="_blank"
                     rel="noopener noreferrer"
