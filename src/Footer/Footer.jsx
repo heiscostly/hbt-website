@@ -17,7 +17,9 @@ const Footer = () => {
                 <img src={Icon.twitter} alt="" />
               </a>
               {/* <img src={Icon.youtube} alt="" /> */}
-              <img src={Icon.discord} alt="" />
+              <a href="https://discord.gg/hfgPwCpfdb">
+                <img src={Icon.discord} alt="" />
+              </a>
             </div>
             <p>© 2021 HBT. All rights reserved</p>
           </div>

@@ -9,9 +9,18 @@ import Footer from "./Footer/Footer";
 import SemiFooter from "./components/SemiFooter/SemiFooter";
 import "./App.css";
 function App() {
+  // const Prevent =
+  //   ("contextmenu",
+  //   (event) => {
+  //     event.preventDefault();
+  //   });
   return (
     <>
-      <div className="container-lg" style={{ overflow: "auto" }}>
+      <div
+        className="container-lg"
+        // onClick={Prevent}
+        style={{ overflow: "auto" }}
+      >
         <div className="row">
           {/* <div className="col"></div> */}
           <div className="col-lg-12">

@@ -64,6 +64,7 @@ const SemiFooter = () => {
                 <li> Initial Marketing</li>
                 <li> IDO </li>
                 <li>Pancakeswap Listing</li>
+                <li>Website Rebranding</li>
               </ul>
             </div>
             <div className="mob__items">

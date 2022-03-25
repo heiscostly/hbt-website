@@ -37,10 +37,10 @@ const HeartBeatInfo = () => {
                 Maximum Supply: 1.000.000.000.000
               </p>
             </div>
-            <div className="mt-5">
+            <div className="mt-5" id="metrics">
               <img style={{ width: "100%" }} src={Icon.heartmetrics} alt="" />
             </div>
-            <div className="mt-5">
+            <div className="mt-5" id="taxes">
               <img style={{ width: "100%" }} src={Icon.taxes} alt="" />
             </div>
           </div>

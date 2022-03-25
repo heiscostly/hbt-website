@@ -3,12 +3,14 @@ import Logo from "../../assets/logo.png";
 // import SettingsIcon from "@mui/icons-material/Settings";
 import { Icon } from "../../assets/svg";
 import "./Header.scss";
+import AnchorLink from "react-anchor-link-smooth-scroll";
+// import { Link } from "react-router-dom";
 
 export const Header = () => {
   return (
     <>
       {/* <header> */}
-      <div className="container">
+      <div className="container" id="head">
         <div className="row">
           {/* <div className="col"></div> */}
           <div className="col-lg-12 head__section desktop-view">
@@ -17,16 +19,23 @@ export const Header = () => {
             <nav>
               <ul className="nav__link">
                 <li>
-                  <a href="">Home</a>
+                  <AnchorLink href="#head">Home</AnchorLink>
                 </li>
                 <li>
-                  <a href="">Tokenmetrics</a>
+                  <AnchorLink href="#metrics">Tokenmetrics</AnchorLink>
                 </li>
                 <li>
-                  <a href="">Taxes</a>
+                  <AnchorLink href="#taxes">Taxes</AnchorLink>
                 </li>
                 <li>
-                  <a href="">Docs</a>
+                  <a
+                    href="https://bit.ly/HeartbeatLitepaper"
+                    rel="noreferrer noopener"
+                    target="_blank"
+                  >
+                    {" "}
+                    Docs
+                  </a>
                 </li>
                 <button>
                   <img src={Icon.settings} alt="" />
@@ -54,9 +63,8 @@ export const Header = () => {
               </button>
               <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <div className="navbar-nav">
-                  <a
+                  <AnchorLink
                     className="nav-item nav-link active"
-                    href="/"
                     style={{
                       color: "white",
                       border: "2px solid #E617DB",
@@ -65,13 +73,15 @@ export const Header = () => {
                       borderRadius: "10px",
                       textTransform: "uppercase",
                       textAlign: "center",
+                      textDecoration: "none",
                     }}
+                    href="#head"
                   >
                     Home
-                  </a>
-                  <a
+                  </AnchorLink>
+                  <AnchorLink
+                    href="#metrics"
                     className="nav-item nav-link"
-                    href="/"
                     style={{
                       color: "white",
                       border: "2px solid #00EAFF",
@@ -82,10 +92,10 @@ export const Header = () => {
                     }}
                   >
                     Tokenmetrics
-                  </a>
-                  <a
+                  </AnchorLink>
+                  <AnchorLink
+                    href="#taxes"
                     className="nav-item nav-link"
-                    href="/"
                     style={{
                       color: "white",
                       border: "2px solid #E617DB",
@@ -96,10 +106,12 @@ export const Header = () => {
                     }}
                   >
                     Taxes
-                  </a>
+                  </AnchorLink>
                   <a
                     className="nav-item nav-link disabled"
-                    href="/"
+                    href="https://bit.ly/HeartbeatLitepaper"
+                    target="_blank"
+                    rel="noopener noreferrer"
                     style={{
                       color: "white",
                       border: "2px solid #00EAFF",
