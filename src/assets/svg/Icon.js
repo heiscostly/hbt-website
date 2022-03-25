@@ -13,7 +13,7 @@ import meta from "../../assets/meta.svg";
 import connect from "../../assets/connect.png";
 import back1 from "../../assets/back1.svg";
 import heart from "../../assets/heart.svg";
-import heartmetrics from "../../assets/heartmetrics.svg";
+import heartmetrics from "../../assets/new.png";
 import taxes from "../../assets/taxes.svg";
 import discord from "../../assets/discord.png";
 import telegram from "../../assets/telegram.svg";
