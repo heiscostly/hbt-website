@@ -124,7 +124,7 @@ const Why = () => {
                   </h5>
                 </div>
                 <p style={{ paddingLeft: "44px", color: "white" }}>
-                  20% of the trading fees are redirected to the which helps
+                  20% of the transaction fees are redirected here. It helps
                   sustain and back the staking rewards provided by the positive
                   rebase.
                 </p>
