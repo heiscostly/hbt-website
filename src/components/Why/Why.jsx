@@ -7,30 +7,9 @@ const Why = () => {
     <>
       <div className="container-lg">
         <div className="row">
-          {/* <div
-            className="col"
-            style={{
-              position: "relative",
-              display: "flex",
-              justifyContent: "end",
-              alignItems: "flex-end",
-            }}
-          >
-            <img
-              style={{
-                position: "absolute",
-                width: "400px",
-                right: "-70px",
-                zIndex: "-1",
-              }}
-              src={Icon.whyvec}
-              alt=""
-            />
-          </div> */}
           <div className="col-lg-12 home__div">
             <img className="mt-4" src={Icon.WhyHbt} alt="" />
-            {/* <Burning /> */}
-            {/* <span>{Burning}</span> */}
+
             <div className="first__home-section pt-5">
               <div className="hidding__huh">
                 <div className="d-flex">
@@ -96,8 +75,8 @@ const Why = () => {
 
                 <p style={{ paddingLeft: "50px", color: "white" }}>
                   provides support to the HIF in the event of an extreme price
-                  drop in the $HBT token.The Treasury also funds new projects
-                  and development of ideas under Heartbeat.
+                  drop in the $HBT token. The Treasury also funds new projects
+                  and the development of ideas under Heartbeat.
                 </p>
               </div>
               <div>
