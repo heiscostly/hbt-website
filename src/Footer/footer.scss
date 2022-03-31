@@ -32,3 +32,9 @@
     color: rgba(255, 255, 255, 0.5);
   }
 }
+@media screen and (max-width: 561px) {
+  .footer__div {
+    margin-top: 3rem !important;
+    margin-bottom: 1rem !important;
+  }
+}

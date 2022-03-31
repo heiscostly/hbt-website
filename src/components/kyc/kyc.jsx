@@ -9,7 +9,7 @@ const kyc = () => {
         <div className="row">
           <div className="col"></div>
           <div
-            className="col-md-8"
+            className="col-md-8 divi"
             style={{
               //   width: "100%",
               display: "flex",

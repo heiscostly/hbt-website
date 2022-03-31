@@ -8,7 +8,11 @@
 }
 
 @media screen and (max-width: 561px) {
-    .hello__img{
-        width: 100% !important;
-    }
+   .divi{
+        margin-top: 3rem !important;
+        margin-bottom: 1rem !important;
+       .hello__img{
+           width: 100% !important;
+       }
+   }
 }
