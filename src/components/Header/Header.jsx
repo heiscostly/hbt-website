@@ -34,7 +34,7 @@ export const Header = () => {
                     target="_blank"
                   >
                     {" "}
-                    Docs
+                    Litepaper
                   </a>
                 </li>
                 <button>
@@ -121,7 +121,7 @@ export const Header = () => {
                       textAlign: "center",
                     }}
                   >
-                    Docs
+                    Litepaper
                   </a>
                 </div>
               </div>
