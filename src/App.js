@@ -7,6 +7,7 @@ import Pulse from "./components/Pulse/Pulse";
 import HeartBeatInfo from "./components/HeartBeatInfo/HeartBeatInfo";
 import Footer from "./Footer/Footer";
 import SemiFooter from "./components/SemiFooter/SemiFooter";
+import Kyc from "./components/kyc/kyc";
 import "./App.css";
 function App() {
   // const Prevent =
@@ -31,6 +32,7 @@ function App() {
             <MiniSection />
             <Pulse />
             <HeartBeatInfo />
+            <Kyc />
             <SemiFooter />
             <Footer />
           </div>

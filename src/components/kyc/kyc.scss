@@ -1,0 +1,14 @@
+.hello__img{
+    width: 50% !important;
+}
+@media screen and (min-width: 320px) {
+    .hello__img{
+        width: 55% !important;
+    }
+}
+
+@media screen and (max-width: 561px) {
+    .hello__img{
+        width: 100% !important;
+    }
+}

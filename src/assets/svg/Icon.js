@@ -25,6 +25,7 @@ import whyvec from "../../assets/whyvec.svg";
 import whyvec2 from "../../assets/whyvec2.svg";
 import mobsettings from "../../assets/mobsetting.svg";
 import mobmenu from "../../assets/mobmenu.png";
+import kyc from "../../assets/kyc.png";
 
 // eslint-disable-next-line import/no-anonymous-default-export
 export default {
@@ -55,4 +56,5 @@ export default {
   whyvec2,
   mobmenu,
   mobsettings,
+  kyc,
 };

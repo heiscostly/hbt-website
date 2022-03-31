@@ -4,7 +4,7 @@ import "./semifooter.scss";
 const SemiFooter = () => {
   return (
     <>
-      <div className="container mt-5">
+      <div className="container">
         <div className="row">
           <div className="col"></div>
           <div className="col-md-10 semi__div desktop-view">

@@ -30,7 +30,7 @@ const Intro = () => {
                   comfortable discussing their stories of times of bad mental
                   health.
                 </p>
-                <button className="contribute">Contribute</button>
+                {/* <button className="contribute">Contribute</button> */}
               </div>
             </div>
             <div className="image__section">
