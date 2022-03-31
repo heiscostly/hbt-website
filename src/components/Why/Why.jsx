@@ -47,7 +47,7 @@ const Why = () => {
                 </div>
 
                 <p style={{ paddingLeft: "58px", color: "white" }}>
-                  earn highest fixed APY in the market of 400,000%, rebasing
+                  Earn highest fixed APY in the market of 400,000%, rebasing
                   rewards every 30 minutes, and a simple buy-hold-earn system.
                 </p>
               </div>
@@ -74,7 +74,7 @@ const Why = () => {
                 </div>
 
                 <p style={{ paddingLeft: "50px", color: "white" }}>
-                  provides support to the HIF in the event of an extreme price
+                  Provides support to the HIF in the event of an extreme price
                   drop in the $HBT token. The Treasury also funds new projects
                   and the development of ideas under Heartbeat.
                 </p>
