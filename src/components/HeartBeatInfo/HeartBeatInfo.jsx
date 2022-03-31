@@ -5,7 +5,7 @@ import Icon from "../../assets/svg/Icon";
 const HeartBeatInfo = () => {
   return (
     <>
-      <div className="container mt-5">
+      <div className="container">
         <div className="row">
           <div
             className="col"

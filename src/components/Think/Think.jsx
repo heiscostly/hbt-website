@@ -5,7 +5,7 @@ import { Icon } from "../../assets/svg";
 const Think = () => {
   return (
     <>
-      <div className="container" style={{ marginTop: "10rem" }}>
+      <div className="container" style={{ marginTop: "8rem" }}>
         <div className="row">
           <div className="col"></div>
           <div className="col-md-8 housing__div">
