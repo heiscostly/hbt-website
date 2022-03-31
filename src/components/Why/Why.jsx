@@ -124,27 +124,6 @@ const Why = () => {
               </div>
             </div>
           </div>
-          {/* <div
-            className="col vec__div"
-            style={{
-              position: "relative",
-              display: "flex",
-              justifyContent: "end",
-              alignItems: "center",
-            }}
-          >
-            <img
-              // className="vec__div"
-              style={{
-                position: "absolute",
-                width: "400px",
-                right: "-174px",
-                zIndex: "-1",
-              }}
-              src={Icon.whyvec2}
-              alt=""
-            />
-          </div> */}
         </div>
       </div>
     </>
